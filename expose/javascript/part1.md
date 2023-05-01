@@ -1,0 +1,6 @@
+1) On line 9 the text "values added:  20" was printed. There were no errors involved.
+2) On line 13 the text "final result:  20". There were no errors printed.
+3) Line 9 returned "values added:  20" and there were no errors on the line.
+4) After changing var to let, line 13 returned an error saying "ReferenceError: result is not defined". This is because the let keyword only has the scope of the immediate block it is in. Any references outside of the block will resutl in an error.
+5) There was an error on line 7, before line 9 could be printed. The error was "TypeError: Assignment to constant variable." This error occured because we set result to be a const, meaning we cannot change the value of the variable after initializing it. However, we are attempting to change the variable which resulted in the error.
+6) Similar to the previous problem, we get the same error because the error occurs before the print statements. We are once again getting a TypeError where we are trying to change the value of a const variable.
