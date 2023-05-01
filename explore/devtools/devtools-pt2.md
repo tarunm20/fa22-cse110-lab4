@@ -1,0 +1,2 @@
+1) The bug is that the webpage is taking in num1 and num2 as strings, and when we add two string together it gets concatenated instead of arithmetically added. Therefore we are getting a concatenation of num1 and num2.
+2) To fix this issue we simply have to convert the string values to integer values. In this case we would use the parseInt() function where we take the integer value of a string. After making the changes we get the correct output
